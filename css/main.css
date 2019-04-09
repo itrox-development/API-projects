@@ -1,0 +1,256 @@
+html,
+body {
+    max-width: 100%;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+.title {
+    font-size: 0.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.brand {
+    text-decoration: none;
+    color: grey;
+}
+
+.block {
+    width: 400px;
+}
+
+.row {
+    display: inline-block;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.43);
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.43);
+}
+
+p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.title-style {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2em;
+    text-align: left;
+}
+
+#container {
+    width: 1260px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 12px;
+    height: 14px;
+    background: url(https://cdn.taboola.com/static/c5/c5ef96bc-30ab-456a-b3d5-a84f367c6a46.svg) no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    position: absolute;
+    margin: 0 0 0 6px;
+}
+
+.logo-text {
+    float: left;
+}
+
+hr {
+    width: 98%;
+    margin-bottom: 25px;
+    color: silver;
+}
+
+.adImages {
+    width: 100%;
+    height: 200px;
+}
+
+.blocks {
+    margin: 8px;
+}
+
+.disclosure {
+    font-size: 12px;
+    margin-left: 10px !important;
+    text-align: left;
+    text-decoration: none !important;
+    color: #000000;
+}
+
+.font-style-1 {
+    font-family: 'Gotham XNarrow', Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.font-style-2 {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', erdana, Arial, Helvetica, sans-serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #container {
+        width: 500px;
+    }
+
+    .disclosure {
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .title-style {
+        text-align: center;
+    }
+
+    hr {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 400px) {
+
+    #container {
+        width: 415px !important;
+        margin-left: -2px !important;
+    }
+
+    .disclosure {
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+}
+
+@media screen and (max-width: 500px) and (min-width: 400px) {
+
+    #container {
+        width: 415px !important;
+        margin-left: auto !important;
+    }
+
+    .disclosure {
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+    hr {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+
+    .block {
+        width: 300px;
+    }
+
+    #container {
+        width: 320px;
+    }
+
+    hr {
+        width: 94%;
+    }
+}
+
+/*GOOGLE PIXL 2*/
+@media (height: 731px) and (width: 411px) {
+
+    #container {
+        margin-left: -3px !important;
+    }
+}
+
+/*GOOGLE PIXL 2 XL*/
+@media (height: 823px) and (width: 411px) {
+
+    #container {
+        margin-left: -3px !important;
+    }
+}
+
+/*IPAD PRO*/
+@media (min-height: 1366px) and (min-width: 1024px) {
+
+    #container {
+        width: 1025px;
+    }
+
+    .disclosure {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+}
+
+/*IPAD PORTRAIT */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    #container {
+        width: 770px;
+    }
+
+    .disclosure {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+}
+
+/*IPAD LANDSCAPE */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+    #container {
+        width: 1025px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .disclosure {
+        text-align: center;
+    }
+}
+
+/*MOBILE DEVICES IN LANDSCAPE*/
+@media screen and (max-height: 480px) and (max-width: 896px) {
+
+    .block {
+        width: 400px;
+    }
+
+    #container {
+        width: 420px;
+    }
+
+    hr {
+        width: 94%;
+    }
+
+    .disclosure {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .title-style {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+}
